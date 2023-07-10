@@ -31,11 +31,6 @@ li {
   position: relative;
 }
 
-.iconMenu::before {
-  text-decoration: none;
-  color: white !important;
-}
-
 .title {
   font-size: 120px;
 }
@@ -247,12 +242,6 @@ td {
 .form-control::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.616);
   font-size: 18px;
-}
-
-#topic,
-#sortby {
-  font-size: 18px;
-  min-width: 175px;
 }
 
 .form-group .dropdown-item {
