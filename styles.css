@@ -1,0 +1,284 @@
+:root {
+  --color-purple: #C271FF;
+  --color-black: #071629;
+}
+
+li {
+  list-style: none;
+}
+
+.smileOff {
+  width: 36px;
+  height: 30px;
+  background: url(images/smile_off.png) 0 0 no-repeat;
+  display: block;
+  background-size: cover;
+}
+
+.smileSchool {
+  width: 114px;
+  height: 20px;
+  background: url(images/logo.png) 0 0 no-repeat;
+  display: block;
+  background-size: cover;
+}
+
+.header-hero {
+  background: url('images/pic_1.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 1093px;
+  position: relative;
+}
+
+.iconMenu::before {
+  text-decoration: none;
+  color: white !important;
+}
+
+.title {
+  font-size: 120px;
+}
+
+.btn-primary {
+  font-size: 14px;
+  width: 162px;
+  height: 44px;
+}
+
+.btn-color {
+  background: var(--color-purple) !important;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-shadow {
+  box-shadow: 2px 15px 30px rgba(0, 0, 0, 0.575);
+}
+
+.highlightText {
+  color: var(--color-purple) !important;
+}
+
+.highlightcolor {
+  background: var(--color-purple) !important;
+}
+
+.rounded {
+  border-radius: 30px !important;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+}
+
+.nav-link {
+  font-size: 12px;
+}
+
+.nav-link:hover {
+  color: var(--color-purple);
+  transition: ease-out 0.2s;
+  text-decoration: none;
+}
+
+/*  CAROUSEL */
+
+.carousel {
+  background-color: var(--color-purple);
+  min-height: 390px;
+  color: white;
+
+}
+
+.carouselImg {
+  width: 150px;
+  height: 150px;
+}
+
+img.p-arrow,
+img.n-arrow {
+  width: 30px;
+  height: 63px;
+}
+
+.carouselText p {
+  font-size: 22px;
+  line-height: 34px;
+  max-width: 730px;
+}
+
+.carousel .font-weight-bold {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+/* POPULAR VIDEOS */
+.card {
+  border: none;
+}
+
+.img_user {
+  width: 30px;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.iconPlay {
+  width: 60px;
+  height: 60px;
+}
+
+.review {
+  width: 120px;
+}
+
+.person {
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.star-rating {
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+}
+
+/* ROW OF SMILES */
+.membership_piece {
+  background-color: var(--color-black);
+  min-height: 500px;
+  padding: 40px 0;
+  min-width: auto;
+}
+
+.m-logo {
+  border: none;
+  width: 257px;
+  height: 153px;
+}
+
+.smile-img {
+  width: 45px;
+}
+
+.m-title {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.m-text {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--color-black);
+  min-height: 249px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.nav .active {
+  color: var(--color-purple) !important;
+  border-bottom: 2px solid white;
+}
+
+/* PRICING HERO */
+
+.pricing {
+  position: relative;
+  background: url('images/pic_2.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 1093px;
+}
+
+.p-title {
+  font-size: 60px;
+}
+
+.logo-pricing {
+  width: 32px;
+  height: auto;
+}
+
+.s-title {
+  font-family: 'Coiny';
+  font-size: 32px;
+}
+
+/* PRICING TABLE */
+
+.table>tbody>tr:first-child>td,
+.table>tbody>tr:first-child>th {
+  border: none;
+}
+
+.table tr,
+th,
+td {
+  vertical-align: middle;
+}
+
+/* COURSES */
+
+.hero-courses {
+  background: url('images/pic_3.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 216px;
+  position: relative;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.616);
+  font-size: 18px;
+}
+
+#topic,
+#sortby {
+  font-size: 18px;
+  min-width: 175px;
+}
+
+.form-group .dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-menu {
+  width: 90%;
+}
+
+.input-box {
+  background-color: #d79df980;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.404);
+  min-height: 50px;
+}
+
+.form-group .dropdown-item:hover {
+  color: var(--color-purple) !important;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .img_user {
+    width: 200%;
+  }
+}
